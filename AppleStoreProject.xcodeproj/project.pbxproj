@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		392A4E98DE595DC1943764D0 /* Pods_AppleStoreProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4881547A6DBFD93769B1446F /* Pods_AppleStoreProject.framework */; };
+		D045DFC72AD57F1D0087150B /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045DFC62AD57F1D0087150B /* SearchResult.swift */; };
+		D045DFCA2AD5C6B20087150B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045DFC92AD5C6B20087150B /* Service.swift */; };
+		D045E0152AD802620087150B /* HorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045E0142AD802620087150B /* HorizontalViewController.swift */; };
+		D045E0172AD834F40087150B /* AppGroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045E0162AD834F40087150B /* AppGroupCell.swift */; };
+		D045E0192AD8F8790087150B /* AppRowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045E0182AD8F8790087150B /* AppRowCell.swift */; };
+		D045E01B2AD916250087150B /* AppsPageHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045E01A2AD916250087150B /* AppsPageHeader.swift */; };
+		D045E01D2AD9179F0087150B /* HorinzontalHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045E01C2AD9179F0087150B /* HorinzontalHeaderViewController.swift */; };
+		D045E01F2AD91A300087150B /* AppPageHeaderRowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D045E01E2AD91A300087150B /* AppPageHeaderRowCollectionViewCell.swift */; };
 		D068D5492ACFE8BC0046A0EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068D5482ACFE8BC0046A0EE /* AppDelegate.swift */; };
 		D068D54B2ACFE8BC0046A0EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068D54A2ACFE8BC0046A0EE /* SceneDelegate.swift */; };
 		D068D54D2ACFE8BC0046A0EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D068D54C2ACFE8BC0046A0EE /* ViewController.swift */; };
-		D068D5502ACFE8BC0046A0EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D068D54E2ACFE8BC0046A0EE /* Main.storyboard */; };
 		D068D5522ACFE8BE0046A0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D068D5512ACFE8BE0046A0EE /* Assets.xcassets */; };
 		D068D5552ACFE8BE0046A0EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D068D5532ACFE8BE0046A0EE /* LaunchScreen.storyboard */; };
+		D06D16AE2AD0120200B25CC7 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D16AD2AD0120200B25CC7 /* TodayViewController.swift */; };
+		D06D16B02AD0120E00B25CC7 /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D16AF2AD0120E00B25CC7 /* AppsViewController.swift */; };
+		D06D16B22AD0121F00B25CC7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06D16B12AD0121F00B25CC7 /* SearchViewController.swift */; };
+		D08DE3692AD49DB7000833CA /* SearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08DE3682AD49DB7000833CA /* SearchResultCell.swift */; };
+		D0F51DC42AE2BF1A00488D57 /* AppGroupFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F51DC32AE2BF1A00488D57 /* AppGroupFeedModel.swift */; };
+		D0F51DC62AE3AD0D00488D57 /* AppDetailControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F51DC52AE3AD0D00488D57 /* AppDetailControllerViewController.swift */; };
+		D0F51DCA2AE42AF900488D57 /* AppDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F51DC92AE42AF900488D57 /* AppDetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		122A3669D9BDEA8257012CFC /* Pods-AppleStoreProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleStoreProject.debug.xcconfig"; path = "Target Support Files/Pods-AppleStoreProject/Pods-AppleStoreProject.debug.xcconfig"; sourceTree = "<group>"; };
+		2087B4A263089AC0EBE6052A /* Pods-AppleStoreProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleStoreProject.release.xcconfig"; path = "Target Support Files/Pods-AppleStoreProject/Pods-AppleStoreProject.release.xcconfig"; sourceTree = "<group>"; };
+		4881547A6DBFD93769B1446F /* Pods_AppleStoreProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppleStoreProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D045DFC62AD57F1D0087150B /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		D045DFC92AD5C6B20087150B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D045E0142AD802620087150B /* HorizontalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalViewController.swift; sourceTree = "<group>"; };
+		D045E0162AD834F40087150B /* AppGroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupCell.swift; sourceTree = "<group>"; };
+		D045E0182AD8F8790087150B /* AppRowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRowCell.swift; sourceTree = "<group>"; };
+		D045E01A2AD916250087150B /* AppsPageHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsPageHeader.swift; sourceTree = "<group>"; };
+		D045E01C2AD9179F0087150B /* HorinzontalHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorinzontalHeaderViewController.swift; sourceTree = "<group>"; };
+		D045E01E2AD91A300087150B /* AppPageHeaderRowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPageHeaderRowCollectionViewCell.swift; sourceTree = "<group>"; };
 		D068D5452ACFE8BC0046A0EE /* AppleStoreProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleStoreProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D068D5482ACFE8BC0046A0EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D068D54A2ACFE8BC0046A0EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D068D54C2ACFE8BC0046A0EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D068D54F2ACFE8BC0046A0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D068D5512ACFE8BE0046A0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D068D5542ACFE8BE0046A0EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D068D5562ACFE8BE0046A0EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06D16AD2AD0120200B25CC7 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		D06D16AF2AD0120E00B25CC7 /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		D06D16B12AD0121F00B25CC7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		D08DE3682AD49DB7000833CA /* SearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultCell.swift; sourceTree = "<group>"; };
+		D0F51DC32AE2BF1A00488D57 /* AppGroupFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppGroupFeedModel.swift; sourceTree = "<group>"; };
+		D0F51DC52AE3AD0D00488D57 /* AppDetailControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailControllerViewController.swift; sourceTree = "<group>"; };
+		D0F51DC92AE42AF900488D57 /* AppDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				392A4E98DE595DC1943764D0 /* Pods_AppleStoreProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72D1AA8D71654B4CAE9808AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				122A3669D9BDEA8257012CFC /* Pods-AppleStoreProject.debug.xcconfig */,
+				2087B4A263089AC0EBE6052A /* Pods-AppleStoreProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9B45672161C80B2D33D74F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4881547A6DBFD93769B1446F /* Pods_AppleStoreProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D045DFC52AD57F0C0087150B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D045DFC62AD57F1D0087150B /* SearchResult.swift */,
+				D0F51DC32AE2BF1A00488D57 /* AppGroupFeedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D045DFC82AD5C6990087150B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				D045DFC92AD5C6B20087150B /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		D068D53C2ACFE8BC0046A0EE = {
 			isa = PBXGroup;
 			children = (
 				D068D5472ACFE8BC0046A0EE /* AppleStoreProject */,
 				D068D5462ACFE8BC0046A0EE /* Products */,
+				72D1AA8D71654B4CAE9808AE /* Pods */,
+				9B45672161C80B2D33D74F12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +125,44 @@
 		D068D5472ACFE8BC0046A0EE /* AppleStoreProject */ = {
 			isa = PBXGroup;
 			children = (
+				D045DFC82AD5C6990087150B /* Service */,
+				D045DFC52AD57F0C0087150B /* Model */,
+				D08DE3672AD49D98000833CA /* Views */,
 				D068D5482ACFE8BC0046A0EE /* AppDelegate.swift */,
 				D068D54A2ACFE8BC0046A0EE /* SceneDelegate.swift */,
 				D068D54C2ACFE8BC0046A0EE /* ViewController.swift */,
-				D068D54E2ACFE8BC0046A0EE /* Main.storyboard */,
+				D06D16AC2AD011EB00B25CC7 /* Main */,
 				D068D5512ACFE8BE0046A0EE /* Assets.xcassets */,
 				D068D5532ACFE8BE0046A0EE /* LaunchScreen.storyboard */,
 				D068D5562ACFE8BE0046A0EE /* Info.plist */,
 			);
 			path = AppleStoreProject;
+			sourceTree = "<group>";
+		};
+		D06D16AC2AD011EB00B25CC7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D06D16AD2AD0120200B25CC7 /* TodayViewController.swift */,
+				D06D16AF2AD0120E00B25CC7 /* AppsViewController.swift */,
+				D06D16B12AD0121F00B25CC7 /* SearchViewController.swift */,
+				D045E0142AD802620087150B /* HorizontalViewController.swift */,
+				D045E01C2AD9179F0087150B /* HorinzontalHeaderViewController.swift */,
+				D0F51DC52AE3AD0D00488D57 /* AppDetailControllerViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D08DE3672AD49D98000833CA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D08DE3682AD49DB7000833CA /* SearchResultCell.swift */,
+				D045E0162AD834F40087150B /* AppGroupCell.swift */,
+				D045E0182AD8F8790087150B /* AppRowCell.swift */,
+				D045E01A2AD916250087150B /* AppsPageHeader.swift */,
+				D045E01E2AD91A300087150B /* AppPageHeaderRowCollectionViewCell.swift */,
+				D0F51DC92AE42AF900488D57 /* AppDetailCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D068D5592ACFE8BE0046A0EE /* Build configuration list for PBXNativeTarget "AppleStoreProject" */;
 			buildPhases = (
+				5AE7B64D799286C696468868 /* [CP] Check Pods Manifest.lock */,
 				D068D5412ACFE8BC0046A0EE /* Sources */,
 				D068D5422ACFE8BC0046A0EE /* Frameworks */,
 				D068D5432ACFE8BC0046A0EE /* Resources */,
+				E50F6B24FE3D43F0A92FD115 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +227,82 @@
 			files = (
 				D068D5552ACFE8BE0046A0EE /* LaunchScreen.storyboard in Resources */,
 				D068D5522ACFE8BE0046A0EE /* Assets.xcassets in Resources */,
-				D068D5502ACFE8BC0046A0EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AE7B64D799286C696468868 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppleStoreProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E50F6B24FE3D43F0A92FD115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleStoreProject/Pods-AppleStoreProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppleStoreProject/Pods-AppleStoreProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppleStoreProject/Pods-AppleStoreProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D068D5412ACFE8BC0046A0EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D045E0152AD802620087150B /* HorizontalViewController.swift in Sources */,
+				D08DE3692AD49DB7000833CA /* SearchResultCell.swift in Sources */,
+				D06D16B22AD0121F00B25CC7 /* SearchViewController.swift in Sources */,
+				D045DFC72AD57F1D0087150B /* SearchResult.swift in Sources */,
+				D06D16AE2AD0120200B25CC7 /* TodayViewController.swift in Sources */,
+				D045E0172AD834F40087150B /* AppGroupCell.swift in Sources */,
+				D06D16B02AD0120E00B25CC7 /* AppsViewController.swift in Sources */,
+				D045E01B2AD916250087150B /* AppsPageHeader.swift in Sources */,
+				D045E01D2AD9179F0087150B /* HorinzontalHeaderViewController.swift in Sources */,
+				D045DFCA2AD5C6B20087150B /* Service.swift in Sources */,
+				D0F51DCA2AE42AF900488D57 /* AppDetailCell.swift in Sources */,
+				D0F51DC62AE3AD0D00488D57 /* AppDetailControllerViewController.swift in Sources */,
+				D045E0192AD8F8790087150B /* AppRowCell.swift in Sources */,
 				D068D54D2ACFE8BC0046A0EE /* ViewController.swift in Sources */,
 				D068D5492ACFE8BC0046A0EE /* AppDelegate.swift in Sources */,
 				D068D54B2ACFE8BC0046A0EE /* SceneDelegate.swift in Sources */,
+				D045E01F2AD91A300087150B /* AppPageHeaderRowCollectionViewCell.swift in Sources */,
+				D0F51DC42AE2BF1A00488D57 /* AppGroupFeedModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D068D54E2ACFE8BC0046A0EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D068D54F2ACFE8BC0046A0EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D068D5532ACFE8BE0046A0EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +430,7 @@
 		};
 		D068D55A2ACFE8BE0046A0EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 122A3669D9BDEA8257012CFC /* Pods-AppleStoreProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +441,6 @@
 				INFOPLIST_FILE = AppleStoreProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +458,7 @@
 		};
 		D068D55B2ACFE8BE0046A0EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2087B4A263089AC0EBE6052A /* Pods-AppleStoreProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +469,6 @@
 				INFOPLIST_FILE = AppleStoreProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
